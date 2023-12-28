@@ -1317,7 +1317,7 @@ class AppConfig {
         "otp" => [ "mime" => "application/vnd.oasis.opendocument.presentation-template", "type" => "slide", "conv" => true, "saveas" => ["pdf", "pptx", "odp"] ],
         "ots" => [ "mime" => "application/vnd.oasis.opendocument.spreadsheet-template", "type" => "cell", "conv" => true, "saveas" => ["csv", "ods", "pdf", "xlsx"] ],
         "ott" => [ "mime" => "application/vnd.oasis.opendocument.text-template", "type" => "word", "conv" => true, "saveas" => ["docx", "odt", "pdf", "rtf", "txt"] ],
-        "pdf" => [ "mime" => "application/pdf", "type" => "word", "fillForms" => true ],
+        "pdf" => [ "mime" => "application/pdf", "type" => "pdf", "fillForms" => true ],
         "pot" => [ "type" => "slide", "conv" => true, "saveas" => ["pdf", "pptx", "odp"] ],
         "potm" => [ "mime" => "application/vnd.ms-powerpoint.template.macroEnabled.12", "type" => "slide", "conv" => true, "saveas" => ["pdf", "pptx", "odp"] ],
         "potx" => [ "mime" => "application/vnd.openxmlformats-officedocument.presentationml.template", "type" => "slide", "conv" => true, "saveas" => ["pdf", "pptx", "odp"] ],
